@@ -1,0 +1,37 @@
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+
+  h3 {
+    color: white;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-items: center;
+
+    width: 20rem;
+    height: 35rem;
+    padding: 2rem;
+
+    border-radius: 0.5rem;
+
+    background-color: #242424;
+  }
+
+  button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    border: 0.125rem solid grey;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+  }
+}
